@@ -1,0 +1,11 @@
+<form action="/<%= contact.id %>/update" method="POST">
+    <label for="">Nama</label>
+    <input type="text" name="nama" value="<%= contact.nama %>" required/>
+    <br />
+    <label for="">No HP</label>
+    <input type="text" name="no_hp" value="<%= contact.no_hp %>" required/>
+    <br />
+    <button type="submit">
+        Update data
+    </button>
+</form>
